@@ -7,48 +7,54 @@ Set-ExplorerOptions - showHiddenFilesFolderDrives -showProtectedOSFIles -showFil
 Enable-RemoteDesktop
 
 # Dev Tools
-cinst atom
-cinst babun
-cinst diffmerge
-cinst fiddler
-cinst git.install
-cinst githubforwindows
-cinst sourcetree
-cinst vim
+cinst -y atom
+cinst -y babun
+cinst -y curl
+cinst -y diffmerge
+cinst -y fiddler
+cinst -y git.install
+cinst -y githubforwindows
+cinst -y sourcetree
+cinst -y vim
+
+# Gaming
+cinst -y steam
 
 # Productivity
-cinst calibre
-cinst evernote
-cinst googlechrome
-cinst googledrive
-cinst flashplayerplugin
-cinst foxitreader
-cinst nuget.commandline
-cinst Paint.Net
-cinst vlc
-cinst wox
+cinst -y calibre
+cinst -y evernote
+cinst -y googlechrome
+cinst -y googledrive
+cinst -y flashplayerplugin
+cinst -y foxitreader
+cinst -y nuget.commandline
+cinst -y Paint.Net
+cinst -y putty
+cinst -y vlc
+cinst -y winrar
+cinst -y wox
 
 # Platforms
-cinst javaruntime
-cinst java.jdk
-cinst nodejs.install
-cinst python
-cinst ruby
+cinst -y javaruntime
+cinst -y java.jdk
+cinst -y nodejs.install
+cinst -y python
+cinst -y ruby
 
 # Utilities
-cinst webpi
-cinst webpicommandline
-cinst wget
-cinst wput
-cinst wincommandpaste
+cinst -y boxstarter
+#cinst -y webpi
+cinst -y webpicommandline
+cinst -y wget
+cinst -y wput
+cinst -y wincommandpaste
 
 # Windows Updates
 Install-WindowsUpdate -AcceptEula
 
 # Taskbar items
-Install-ChocolateyPinnedTaskBarItem "$env:windir\explorer.exe"
-Install-ChocolateyPinnedTaskBarItem "$env:localappdata\Google\Chrome\Application\chrome.exe"
-Install-ChocolateyPinnedTaskBarItem "$env:programfiles\Evernote\Evernote\Evernote.exe"
+Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles(x86)\Google\Chrome\Application\chrome.exe"
+Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles(x86)\Evernote\Evernote\Evernote.exe"
 
 # NPM Programs
 npm install -g gulp
@@ -82,7 +88,3 @@ apm install minimap-selection
 apm install trailing-spaces
 apm install minimap-color-highlight
 apm install minimap-git-diff
-
-# Git Setup
-git config --global user.email "danrigsby@hotmail.com"
-git config --global user.name "danrigsby"
