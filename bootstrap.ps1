@@ -43,6 +43,7 @@ cinst -y ruby
 
 # Utilities
 cinst -y boxstarter
+cinst -y conemu
 #cinst -y webpi
 cinst -y webpicommandline
 cinst -y wget
