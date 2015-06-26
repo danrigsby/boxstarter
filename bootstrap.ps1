@@ -54,8 +54,8 @@ cinst -y wincommandpaste
 Install-WindowsUpdate -AcceptEula
 
 # Taskbar items
-Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles(x86)\Google\Chrome\Application\chrome.exe"
-Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles(x86)\Evernote\Evernote\Evernote.exe"
+#Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles(x86)\Google\Chrome\Application\chrome.exe"
+#Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles(x86)\Evernote\Evernote\Evernote.exe"
 
 # NPM Programs
 npm install -g gulp
@@ -63,29 +63,29 @@ npm install -g grunt
 npm install -g mocha
 
 # Atom Plugins
-apm install sublime-style-column-selection
-apm install autocomplete-plus
 apm install autocomplete-paths
+apm install editorconfig
 apm install enhanced-tabs
 apm install file-icons
-apm install language-scala
-apm install minimap
-apm install open-recent
-apm install react
-apm install git-log
+#apm install git-blame
 apm install git-go
 apm install git-history
+apm install git-log
 apm install git-plus
-apm install git-projects
-apm install merge-conflicts
-apm install pigments
-apm install highlight-selected
-apm install project-manager
-apm install editorconfig
+#apm install git-projects
 apm install highlight-line
-apm install regex-railroad-diagram
-apm install git-blame
-apm install minimap-selection
-apm install trailing-spaces
+apm install highlight-selected
+apm install language-scala
+apm install merge-conflicts
+apm install minimap
 apm install minimap-color-highlight
 apm install minimap-git-diff
+apm install minimap-selection
+apm install open-recent
+apm install pigments
+apm install project-manager
+apm install react
+apm install regex-railroad-diagram
+apm install sort-lines
+apm install sublime-style-column-selection
+apm install trailing-spaces
