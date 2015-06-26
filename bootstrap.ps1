@@ -76,6 +76,8 @@ apm install git-plus
 apm install highlight-line
 apm install highlight-selected
 apm install language-scala
+apm install linter
+apm install linter-eslint
 apm install merge-conflicts
 apm install minimap
 apm install minimap-color-highlight
@@ -89,3 +91,7 @@ apm install regex-railroad-diagram
 apm install sort-lines
 apm install sublime-style-column-selection
 apm install trailing-spaces
+
+#Atom themes
+apm install peacock-syntax
+apm install spacegray-peacock-ui
