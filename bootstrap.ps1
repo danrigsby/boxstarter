@@ -13,7 +13,7 @@ cinst -y curl
 cinst -y diffmerge
 cinst -y fiddler
 cinst -y git.install
-cinst -y githubforwindows
+cinst -y github
 cinst -y sourcetree
 cinst -y vim
 
