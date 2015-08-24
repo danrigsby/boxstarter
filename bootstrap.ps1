@@ -63,16 +63,18 @@ npm install -g grunt
 npm install -g mocha
 
 # Atom Plugins
+apm install autocomplete-modules
 apm install autocomplete-paths
+apm install atom-ternjs
+apm install docblockr
 apm install editorconfig
 apm install enhanced-tabs
+apm install find-and-till
 apm install file-icons
-#apm install git-blame
-apm install git-go
+apm install git-blame
 apm install git-history
 apm install git-log
 apm install git-plus
-#apm install git-projects
 apm install highlight-line
 apm install highlight-selected
 apm install language-scala
@@ -80,18 +82,20 @@ apm install linter
 apm install linter-eslint
 apm install merge-conflicts
 apm install minimap
-apm install minimap-color-highlight
+apm install minimap-find-and-replace
 apm install minimap-git-diff
+apm install minimap-highlight-selection
+apm install minimap-linter
+apm install minimap-pigments
 apm install minimap-selection
+#apm install nuclide-installer
 apm install open-recent
 apm install pigments
-apm install project-manager
 apm install react
 apm install regex-railroad-diagram
 apm install sort-lines
+apm install script
 apm install sublime-style-column-selection
-apm install trailing-spaces
-
-#Atom themes
-apm install peacock-syntax
-apm install spacegray-peacock-ui
+apm install sync-settings
+apm install atom-ternjs
+apm install zen
