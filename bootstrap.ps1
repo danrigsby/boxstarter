@@ -9,6 +9,7 @@ Enable-RemoteDesktop
 # Dev Tools
 cinst -y atom
 cinst -y babun
+cinst -y boot2docker
 cinst -y curl
 cinst -y diffmerge
 cinst -y fiddler
@@ -16,6 +17,7 @@ cinst -y git.install
 cinst -y github
 cinst -y sourcetree
 cinst -y vim
+cinst -y virtualbox
 
 # Gaming
 cinst -y steam
@@ -40,8 +42,10 @@ cinst -y java.jdk
 cinst -y nodejs.install
 cinst -y python
 cinst -y ruby
+cinst -y DotNet4.5
 
 # Utilities
+cinst -y 7zip.install
 cinst -y boxstarter
 cinst -y conemu
 #cinst -y webpi
