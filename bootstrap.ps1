@@ -103,3 +103,4 @@ apm install sublime-style-column-selection
 apm install sync-settings
 apm install atom-ternjs
 apm install zen
+apm install atom-react-native-autocomplete
