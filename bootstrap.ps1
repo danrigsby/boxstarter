@@ -14,8 +14,6 @@ cinst -y curl
 cinst -y diffmerge
 cinst -y fiddler
 cinst -y git.install
-cinst -y github
-cinst -y sourcetree
 cinst -y vim
 cinst -y virtualbox
 
@@ -42,14 +40,11 @@ cinst -y java.jdk
 cinst -y nodejs.install
 cinst -y python
 cinst -y ruby
-cinst -y DotNet4.5
 
 # Utilities
 cinst -y 7zip.install
 cinst -y boxstarter
 cinst -y conemu
-#cinst -y webpi
-cinst -y webpicommandline
 cinst -y wget
 cinst -y wput
 cinst -y wincommandpaste
@@ -63,6 +58,7 @@ Install-WindowsUpdate -AcceptEula
 
 # NPM Programs
 npm install -g gulp
+npm install -g yo
 npm install -g grunt
 npm install -g mocha
 
