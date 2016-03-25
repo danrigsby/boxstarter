@@ -8,7 +8,7 @@ Enable-RemoteDesktop
 
 # Dev Tools
 cinst -y atom
-cinst -y babun
+cinst -y cmder
 cinst -y boot2docker
 cinst -y curl
 cinst -y diffmerge
@@ -44,7 +44,6 @@ cinst -y ruby
 # Utilities
 cinst -y 7zip.install
 cinst -y boxstarter
-cinst -y conemu
 cinst -y wget
 cinst -y wput
 cinst -y wincommandpaste
@@ -100,4 +99,3 @@ apm install sync-settings
 apm install atom-ternjs
 apm install zen
 apm install atom-react-native-autocomplete
-apm install atom-xcode
