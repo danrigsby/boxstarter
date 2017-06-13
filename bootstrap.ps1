@@ -8,6 +8,7 @@ Enable-RemoteDesktop
 
 # Dev Tools
 cinst -y atom
+cinst -y vscode
 cinst -y cmder
 cinst -y boot2docker
 cinst -y curl
@@ -56,9 +57,7 @@ Install-WindowsUpdate -AcceptEula
 #Install-ChocolateyPinnedTaskBarItem "$env:ProgramFiles(x86)\Evernote\Evernote\Evernote.exe"
 
 # NPM Programs
-npm install -g gulp
 npm install -g yo
-npm install -g grunt
 npm install -g mocha
 
 # Atom Plugins
